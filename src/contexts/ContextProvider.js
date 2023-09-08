@@ -30,8 +30,8 @@ export const ContextProvider = ({ children }) => {
   }
 
   function getModeFromLocalStorage() {
-    const color = localStorage.getItem("colorTheme");
-    setCurrentMode(color);
+    const mode = localStorage.getItem("modeTheme");
+    setCurrentMode(mode);
   }
 
   function getColorFromLocalStorage() {
