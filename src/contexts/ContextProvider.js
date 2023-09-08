@@ -29,6 +29,16 @@ export const ContextProvider = ({ children }) => {
     localStorage.setItem("modeTheme", e.target.value);
   }
 
+  function getModeFromLocalStorage() {
+    const color = localStorage.getItem("colorTheme");
+    setCurrentMode(color);
+  }
+
+  function getColorFromLocalStorage() {
+    const color = localStorage.getItem("colorTheme");
+    setCurrentColor(color);
+  }
+
   const handleClick = (clickedName) => {
     setIsClicked({
       ...initialState,
@@ -56,6 +66,8 @@ export const ContextProvider = ({ children }) => {
         themeSettings,
         setThemeSettings,
         closeNavIcons,
+        getModeFromLocalStorage,
+        getColorFromLocalStorage,
       }}
     >
       {children}
