@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Admin-Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for an admin dashboard web application. The application is designed for managing and visualizing data in a user-friendly and customizable manner. It includes various components such as a calendar, kanban board, color picker, and a text editor. Additionally, it provides different types of charts for data visualization, including line, area, pie, bar, and pyramid charts. The main page of the application showcases a dashboard that provides an overview of all the components and other relevant statistics.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+- **Calendar:** The calendar component allows users to manage events, appointments, and important dates conveniently. It provides a user-friendly interface for adding, editing, and deleting events.
 
-### `npm start`
+- **Kanban Board:** The kanban board component facilitates task management using a drag-and-drop interface. Users can create boards, add tasks, assign labels, and track progress easily.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Color Picker:** The color picker component enables users to choose colors by interacting with a visually appealing interface. It supports various color formats and provides options for fine-tuning color selections.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Text Editor:** The text editor component offers a rich editing experience with features like formatting text, inserting images, creating lists, and more. It provides a WYSIWYG (What You See Is What You Get) interface for easy content creation.
 
-### `npm test`
+- **Charts:** The application includes a range of charts to visualize data effectively. Supported chart types include line, area, pie, bar, and pyramid charts. These charts provide insightful representations of data sets, making it easier to analyze and understand information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Dashboard:** The main page of the application serves as a dashboard that presents an overview of the various components and statistics. It provides a centralized view of important information, allowing users to quickly assess the overall status and performance.
 
-### `npm run build`
+- **Customization:** The application offers customization options to enhance the user experience. Users can switch between light and dark themes to suit their preferences. Additionally, they can personalize the accent color of the application, providing a highly customizable environment. The chosen theme and accent color are preserved using the browser's local storage, so when users reload the page, their preferences are retained.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install and run the admin dashboard web application locally, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+```bash copy
+git clone https://github.com/ahmedsalah117/admin-dashboard.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash copy
+cd admin-dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+3. Install the dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash copy
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+4. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash Copy
+npm start
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Access the application in your web browser at http://localhost:3000.
 
-### Making a Progressive Web App
+# Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This application is built using various open-source libraries and frameworks. The following dependencies have been utilized in this project:
 
-### Advanced Configuration
+- React
+- SyncFusion
+- Tailwind CSS
+- React-icons
+- React-router-dom
+- JavaScript Mastery Youtube Channel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Contact
 
-### Deployment
+If you have any questions, suggestions, or feedback, feel free to contact me.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can reach out to me through the following channels:
 
-### `npm run build` fails to minify
+- **Email**: [engineerahmedbahnasy@gmail.com](mailto:engineerahmedbahnasy@gmail.com)
+- **LinkedIn**: [Eng Ahmed Bahnasy](https://www.linkedin.com/in/eng-ahmed-bahnasy/)
+- **Phone**: +20 1024768040
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to connect with me on LinkedIn for professional inquiries and networking opportunities.
+
+```
+Happy Hacking!
+```
